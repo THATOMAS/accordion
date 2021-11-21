@@ -9,7 +9,7 @@ const Sheet = ()=>{
     
     
     return<article>
-            <h1>Please Help Us Help You . </h1>
+           
         <div className="Question-box">
             {data.map((question)=>{                
                 return <div>

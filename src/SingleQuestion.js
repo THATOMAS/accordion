@@ -25,7 +25,7 @@ const Info = ({id,info,title})=>{
 return <div className="titlebox">
 <h4>{title}</h4>
 <button onClick={changeIcon}>{icons[index]}</button>
-<p>{toggle ? info: ``}</p>
+<p>{toggle ? info:<></>}</p>
 </div>
 }
 
