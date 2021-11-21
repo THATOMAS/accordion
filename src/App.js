@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-
+import Questions from "./Question"
 
 function App() {
-  return <>
-  <h1>Hello</h1>
-  </>
+  return(
+    <section>
+      <Questions/>
+    </section>
+  ) 
+
 }
 
 export default App;
